@@ -18147,6 +18147,15 @@
                     "=",
                     "Multiplayer::CurrentPlayerUsername()"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Multiplayer::MultiplayerObjectBehavior::TakeObjectOwnership"
+                  },
+                  "parameters": [
+                    "slime",
+                    "MultiplayerObject"
+                  ]
                 }
               ]
             },
