@@ -70717,15 +70717,6 @@
             },
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-              },
-              "parameters": [
-                "Player",
-                "Animation"
-              ]
-            },
-            {
-              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
@@ -70778,15 +70769,6 @@
                 "Player",
                 "PlatformerObject",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-              },
-              "parameters": [
-                "Player",
-                "Animation"
               ]
             },
             {
@@ -70845,15 +70827,6 @@
                 "Player",
                 "PlatformerObject",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
-              },
-              "parameters": [
-                "Player",
-                "Animation"
               ]
             },
             {
