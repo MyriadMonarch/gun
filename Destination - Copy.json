@@ -18577,12 +18577,14 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "MettreXY"
               },
               "parameters": [
-                "",
-                "\"lev0multi\"",
-                ""
+                "Player",
+                "=",
+                "368",
+                "=",
+                "192"
               ]
             }
           ]
@@ -21961,7 +21963,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6877851841528352,
+        "zoomFactor": 0.39138199019313025,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -23592,12 +23594,14 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "MettreXY"
               },
               "parameters": [
-                "",
-                "\"lev1multi\"",
-                ""
+                "Player",
+                "=",
+                "192",
+                "=",
+                "160"
               ]
             }
           ]
@@ -28402,12 +28406,14 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "MettreXY"
               },
               "parameters": [
-                "",
-                "\"lev2multi\"",
-                ""
+                "Player",
+                "=",
+                "144",
+                "=",
+                "160"
               ]
             }
           ]
@@ -33314,12 +33320,14 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "MettreXY"
               },
               "parameters": [
-                "",
-                "\"lev2multi\"",
-                ""
+                "Player",
+                "=",
+                "140",
+                "=",
+                "160"
               ]
             }
           ]
@@ -38564,12 +38572,14 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "MettreXY"
               },
               "parameters": [
-                "",
-                "\"lev2multi\"",
-                ""
+                "Player",
+                "=",
+                "144",
+                "=",
+                "160"
               ]
             }
           ]
@@ -43929,12 +43939,14 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "MettreXY"
               },
               "parameters": [
-                "",
-                "\"lev2multi\"",
-                ""
+                "Player",
+                "=",
+                "144",
+                "=",
+                "160"
               ]
             }
           ]
@@ -51023,12 +51035,14 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "MettreXY"
               },
               "parameters": [
-                "",
-                "\"lev2multi\"",
-                ""
+                "Player",
+                "=",
+                "144",
+                "=",
+                "160"
               ]
             }
           ]
@@ -55548,7 +55562,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8667672944801961,
+        "zoomFactor": 0.8384930326492818,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -58267,12 +58281,14 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "MettreXY"
               },
               "parameters": [
-                "",
-                "\"lev2multi\"",
-                ""
+                "Player",
+                "=",
+                "144",
+                "=",
+                "160"
               ]
             }
           ]
@@ -61554,7 +61570,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.9262082200180037,
+        "zoomFactor": 0.8959949737528236,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -61754,7 +61770,7 @@
           "name": "Player",
           "persistentUuid": "c1d36544-8263-42b2-9b40-01e35afce3ed",
           "width": 0,
-          "x": 144,
+          "x": 80,
           "y": 160,
           "zOrder": 40,
           "numberProperties": [],
@@ -62121,6 +62137,87 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "908c9c21-e266-4739-9c99-30d666a11ae8",
+          "width": 0,
+          "x": 112,
+          "y": 160,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Player",
+              "type": "number",
+              "value": 2
+            },
+            {
+              "name": "id",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "20ac9177-c67d-487c-be23-fa2d1fa6ea7f",
+          "width": 0,
+          "x": 176,
+          "y": 160,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Player",
+              "type": "number",
+              "value": 4
+            },
+            {
+              "name": "id",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "bd9412c6-79a1-4534-8cdb-9b0da7fc7a86",
+          "width": 0,
+          "x": 144,
+          "y": 160,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Player",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "name": "id",
+              "type": "number",
+              "value": 1
+            }
+          ]
         }
       ],
       "objects": [],
@@ -62906,12 +63003,14 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "MettreXY"
               },
               "parameters": [
-                "",
-                "\"lev2multi\"",
-                ""
+                "Player",
+                "=",
+                "144",
+                "=",
+                "160"
               ]
             }
           ]
@@ -63930,7 +64029,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5448283647164742,
+        "zoomFactor": 0.8111410874391896,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -66544,7 +66643,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5448283647164738,
+        "zoomFactor": 1.9859986798992264,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -66744,12 +66843,17 @@
           "name": "Player",
           "persistentUuid": "c1d36544-8263-42b2-9b40-01e35afce3ed",
           "width": 0,
-          "x": 160,
+          "x": 128,
           "y": 48,
           "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
+            {
+              "name": "Player",
+              "type": "number",
+              "value": 2
+            },
             {
               "name": "id",
               "type": "number",
@@ -67464,6 +67568,82 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "5bbe2063-e37d-4a89-9b04-ae8f2d02025a",
+          "width": 0,
+          "x": 112,
+          "y": 48,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "id",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "41de8d33-536d-41ed-bc3a-cdb2e7affe8b",
+          "width": 0,
+          "x": 160,
+          "y": 48,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Player",
+              "type": "number",
+              "value": 4
+            },
+            {
+              "name": "id",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "c6b15fce-97e0-4122-979d-a03944a5b373",
+          "width": 0,
+          "x": 144,
+          "y": 48,
+          "zOrder": 40,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "Player",
+              "type": "number",
+              "value": 3
+            },
+            {
+              "name": "id",
+              "type": "number",
+              "value": 1
+            }
+          ]
         }
       ],
       "objects": [],
@@ -68249,12 +68429,14 @@
             },
             {
               "type": {
-                "value": "Scene"
+                "value": "MettreXY"
               },
               "parameters": [
-                "",
-                "\"lev2multi\"",
-                ""
+                "Player",
+                "=",
+                "144",
+                "=",
+                "48"
               ]
             }
           ]
@@ -69165,7 +69347,7 @@
           "isLocked": false,
           "name": "control",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
