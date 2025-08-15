@@ -20599,7 +20599,7 @@
               "parameters": [
                 "levno",
                 "=",
-                "0"
+                "1"
               ]
             },
             {
@@ -32642,7 +32642,7 @@
               "parameters": [
                 "levno",
                 "=",
-                "2"
+                "3"
               ]
             },
             {
@@ -37894,7 +37894,7 @@
               "parameters": [
                 "levno",
                 "=",
-                "2"
+                "4"
               ]
             },
             {
@@ -43261,7 +43261,7 @@
               "parameters": [
                 "levno",
                 "=",
-                "2"
+                "5"
               ]
             },
             {
@@ -50357,7 +50357,7 @@
               "parameters": [
                 "levno",
                 "=",
-                "2"
+                "6"
               ]
             },
             {
@@ -57603,7 +57603,7 @@
               "parameters": [
                 "levno",
                 "=",
-                "2"
+                "7"
               ]
             },
             {
@@ -59316,7 +59316,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8384930326492815,
+        "zoomFactor": 0.8667672944801958,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -62325,7 +62325,7 @@
               "parameters": [
                 "levno",
                 "=",
-                "2"
+                "8"
               ]
             },
             {
@@ -65056,7 +65056,7 @@
               "parameters": [
                 "levno",
                 "=",
-                "8"
+                "9"
               ]
             },
             {
@@ -67751,7 +67751,7 @@
               "parameters": [
                 "levno",
                 "=",
-                "2"
+                "9"
               ]
             },
             {
@@ -70331,7 +70331,7 @@
               "parameters": [
                 "levno",
                 "=",
-                "8"
+                "10"
               ]
             },
             {
@@ -70717,6 +70717,15 @@
             },
             {
               "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+              },
+              "parameters": [
+                "Player",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
@@ -70769,6 +70778,15 @@
                 "Player",
                 "PlatformerObject",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+              },
+              "parameters": [
+                "Player",
+                "Animation"
               ]
             },
             {
@@ -70827,6 +70845,15 @@
                 "Player",
                 "PlatformerObject",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::PauseAnimation"
+              },
+              "parameters": [
+                "Player",
+                "Animation"
               ]
             },
             {
