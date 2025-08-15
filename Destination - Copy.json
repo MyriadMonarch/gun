@@ -1866,30 +1866,6 @@
         }
       },
       {
-        "file": "assets/Trail.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Trail.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/75d9dc860af51d259a409f2387d49a2b152521b10cfc3662149e4fcf9f1be053_Trail.png",
-          "name": "Trail.png"
-        }
-      },
-      {
-        "file": "assets/LightGlow.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "LightGlow.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Particles/c17e2d500015e598624b763f4942b26e3aac96efca094cd20257a61e15b27fcb_LightGlow.png",
-          "name": "LightGlow.png"
-        }
-      },
-      {
         "file": "assets/LightGlow2.png",
         "kind": "image",
         "metadata": "",
@@ -10595,7 +10571,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.39251611754882326,
+        "zoomFactor": 1.097367969562956,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -10723,14 +10699,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 724,
+          "height": 721,
           "keepRatio": true,
           "layer": "",
           "name": "NewSprite3",
           "persistentUuid": "2190b640-161f-4809-82c2-57758547fbfe",
-          "width": 1278,
-          "x": 4,
-          "y": -5,
+          "width": 1280,
+          "x": 0,
+          "y": 0,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -12843,15 +12819,15 @@
       ]
     },
     {
-      "b": 26,
+      "b": 64,
       "disableInputWhenNotFocused": true,
       "mangledName": "saveandload",
       "name": "saveandload",
-      "r": 26,
+      "r": 65,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
-      "v": 26,
+      "v": 64,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -12862,7 +12838,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6455105703311482,
+        "zoomFactor": 0.5290357402156842,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -14336,7 +14312,7 @@
                 "value": "EcrireFichierTxt"
               },
               "parameters": [
-                "\"destination\"",
+                "\"destinationsc\"",
                 "\"scoresoflv\"",
                 "GlobalVarToJSON(scoreoflev)"
               ]
@@ -14346,7 +14322,7 @@
                 "value": "EcrireFichierTxt"
               },
               "parameters": [
-                "\"destination\"",
+                "\"destinationsc\"",
                 "\"scoresoflvmulti\"",
                 "GlobalVarToJSON(scoreoflevmulti)"
               ]
@@ -14356,7 +14332,7 @@
                 "value": "EcrireFichierTxt"
               },
               "parameters": [
-                "\"destination\"",
+                "\"destinationsc\"",
                 "\"levcom\"",
                 "GlobalVarToJSON(levcomplete)"
               ]
@@ -14366,7 +14342,7 @@
                 "value": "EcrireFichierTxt"
               },
               "parameters": [
-                "\"destination\"",
+                "\"destinationsc\"",
                 "\"levcommulti\"",
                 "GlobalVarToJSON(levcompletemulti)"
               ]
@@ -14392,7 +14368,7 @@
                 "value": "ReadStringFromStorage"
               },
               "parameters": [
-                "\"destination\"",
+                "\"destinationsc\"",
                 "\"scoresoflv\"",
                 "",
                 "temp"
@@ -14412,7 +14388,7 @@
                 "value": "ReadStringFromStorage"
               },
               "parameters": [
-                "\"destination\"",
+                "\"destinationsc\"",
                 "\"scoreslvmulti\"",
                 "",
                 "temp2"
@@ -14432,7 +14408,7 @@
                 "value": "ReadStringFromStorage"
               },
               "parameters": [
-                "\"destination\"",
+                "\"destinationsc\"",
                 "\"levcom\"",
                 "",
                 "temp3"
@@ -14452,7 +14428,7 @@
                 "value": "ReadStringFromStorage"
               },
               "parameters": [
-                "\"destination\"",
+                "\"destinationsc\"",
                 "\"levcommulti\"",
                 "",
                 "temp4"
@@ -14488,7 +14464,7 @@
                 "value": "EcrireFichierTxt"
               },
               "parameters": [
-                "\"destination\"",
+                "\"destinationsc\"",
                 "\"scoresoflv\"",
                 "\"\""
               ]
@@ -14498,7 +14474,7 @@
                 "value": "EcrireFichierTxt"
               },
               "parameters": [
-                "\"destination\"",
+                "\"destinationsc\"",
                 "\"scoresoflvmulti\"",
                 "\"\""
               ]
@@ -14548,7 +14524,7 @@
                 "value": "EcrireFichierTxt"
               },
               "parameters": [
-                "\"destination\"",
+                "\"destinationsc\"",
                 "\"levcom\"",
                 "\"\""
               ]
@@ -14558,7 +14534,7 @@
                 "value": "EcrireFichierTxt"
               },
               "parameters": [
-                "\"destination\"",
+                "\"destinationsc\"",
                 "\"levcommulti\"",
                 "\"\""
               ]
@@ -26956,7 +26932,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6158173508050924,
+        "zoomFactor": 0.36891102577174534,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -80562,7 +80538,7 @@
                 "time",
                 "Text",
                 "=",
-                "\"Time\"+ToString(TimeFromStart())"
+                "\"Time: \"+ToString(TimeFromStart())"
               ]
             }
           ]
